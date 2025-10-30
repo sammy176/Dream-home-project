@@ -4,17 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dream Home</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-icons-1.13.1/bootstrap-icons.css" />
+    <!-- BOOTSTRAP ICON CDN -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <!-- BOOTSTRAP CSS CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOOTSTRAP JAVASCRIPT CDN -->
+    <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.js"></script>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -27,8 +38,8 @@
     <nav class="navbar navbar-expand-md bg-white py-3 fixed-top">
       <div class="container">
         <a
-          href="#"
-          class="fs-3 fw-bold navbar-brand text-uppercase text-secondary"
+          href="#home"
+          class="fs-4 fw-bold navbar-brand text-uppercase text-secondary"
           ><span class="text-warning">Dream</span> Home</a
         >
         <button
@@ -43,125 +54,130 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto fw-bold text-uppercase">
             <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Service</a>
+              <a href="#service" class="nav-link">Service</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Portfolio</a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Team</a>
+              <a href="#instructors" class="nav-link">Team</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contact</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section id="carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carousel"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carousel"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carousel"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active item">
-          <img
-            src="frames-for-your-heart-mR1CIDduGLc-unsplash.jpg"
-            class="d-block w-100 img"
-            alt="#"
-          />
-          <div class="carousel-caption top-0 mt-5 pt-5">
-            <h1 class="fs-3 mt-5 text-uppercase fw-bold">Your Dream House</h1>
-            <p class="mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
-              inventore aut distinctio, numquam ducimus eligendi.
-            </p>
-            <button class="btn btn-warning text-light px-4 py-2 fs-5 mt-5">
-              Learn more
-            </button>
+    <!-- MAIN SECTION -->
+    <div id="home">
+      <section id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active item">
+            <img
+              src="frames-for-your-heart-mR1CIDduGLc-unsplash.jpg"
+              class="d-block w-100 img"
+              alt="#"
+            />
+            <div class="carousel-caption top-0 mt-5 pt-5">
+              <h1 class="fs-3 mt-5 text-uppercase fw-bold">Your Dream House</h1>
+              <p class="mt-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
+                inventore aut distinctio, numquam ducimus eligendi.
+              </p>
+              <button class="btn btn-warning text-light px-4 py-2 fs-5 mt-5">
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item item">
+            <img
+              src="phil-hearing-IYfp2Ixe9nM-unsplash.jpg"
+              class="d-block w-100 img"
+              alt="#"
+            />
+            <div class="carousel-caption top-0 mt-5 pt-5">
+              <h1 class="fs-3 mt-5 text-uppercase fw-bold">Always dedicated</h1>
+              <p class="mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat aspernatur rerum ratione iusto expedita voluptas!
+              </p>
+              <button class="btn btn-warning text-light px-4 py-2 fs-5 mt-5">
+                Learn more
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item item">
+            <img
+              src="sieuwert-otterloo-aren8nutd1Q-unsplash.jpg"
+              class="d-block w-100 img"
+              alt="#"
+            />
+            <div class="carousel-caption top-0 mt-5 pt-5">
+              <p class="fs-3 mt-5 text-uppercase fw-bold">true construction</p>
+              <p class="mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Blanditiis, at nulla ipsum eveniet facilis iste.
+              </p>
+              <button class="btn btn-warning text-light px-4 py-2 fs-5 mt-5">
+                Learn more
+              </button>
+            </div>
           </div>
         </div>
-        <div class="carousel-item item">
-          <img
-            src="phil-hearing-IYfp2Ixe9nM-unsplash.jpg"
-            class="d-block w-100 img"
-            alt="#"
-          />
-          <div class="carousel-caption top-0 mt-5 pt-5">
-            <h1 class="fs-3 mt-5 text-uppercase fw-bold">Always dedicated</h1>
-            <p class="mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              aspernatur rerum ratione iusto expedita voluptas!
-            </p>
-            <button class="btn btn-warning text-light px-4 py-2 fs-5 mt-5">
-              Learn more
-            </button>
-          </div>
-        </div>
-        <div class="carousel-item item">
-          <img
-            src="sieuwert-otterloo-aren8nutd1Q-unsplash.jpg"
-            class="d-block w-100 img"
-            alt="#"
-          />
-          <div class="carousel-caption top-0 mt-5 pt-5">
-            <p class="fs-3 mt-5 text-uppercase fw-bold">true construction</p>
-            <p class="mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Blanditiis, at nulla ipsum eveniet facilis iste.
-            </p>
-            <button class="btn btn-warning text-light px-4 py-2 fs-5 mt-5">
-              Learn more
-            </button>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carousel"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carousel"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-    </section>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+      </section>
+    </div>
 
-    <section id="learn" class="p-5 mt-5">
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="p-5 mt-5">
       <div class="container">
         <div class="text-dark fs-4 text-center p-3 mb-3 fw-bold text-uppercase">
           About Us
@@ -191,12 +207,16 @@
       </div>
     </section>
 
-    <section class="p-5 mt-4">
+    <!-- SERVICE SECTION -->
+
+    <section id="service" class="p-5 mt-4">
       <div class="container">
         <div class="para text-center">
           <h1 class="fs-4 mt-5 text-uppercase fw-bold mb-3">Our Services</h1>
 
-          <p class="d-flex justify-content-center align-items-center text-wrap">
+          <p
+            class="d-flex justify-content-center align-items-center text-wrap p-3"
+          >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione at
             nesciunt error eligendi tempore natus quas enim quaerat vero atque.
           </p>
@@ -211,12 +231,14 @@
                 </div>
                 <h3 class="card-title mb-3">Best Quality</h3>
                 <p class="card-text">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Impedit dolores maiores voluptatibus illum autem! Odit labore,
                   quidem consectetur, consequuntur, accusantium dolor neque
                   assumenda a vitae saepe ex. Distinctio, blanditiis asperiores.
                 </p>
-                <a href="#" class="btn text-light btn-warning mb-2 ">Learn more</a>
+                <a href="#" class="btn text-light btn-warning mb-2"
+                  >Learn more</a
+                >
               </div>
             </div>
           </div>
@@ -228,12 +250,14 @@
                 </div>
                 <h3 class="card-title mb-3">Sustainability</h3>
                 <p class="card-text">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Impedit dolores maiores voluptatibus illum autem! Odit labore,
                   quidem consectetur, consequuntur, accusantium dolor neque
                   assumenda a vitae saepe ex. Distinctio, blanditiis asperiores.
                 </p>
-                <a href="#" class="btn text-light btn-warning mb-2 ">Learn more</a>
+                <a href="#" class="btn text-light btn-warning mb-2"
+                  >Learn more</a
+                >
               </div>
             </div>
           </div>
@@ -250,7 +274,9 @@
                   quidem consectetur, consequuntur, accusantium dolor neque
                   assumenda a vitae saepe ex. Distinctio, blanditiis asperiores.
                 </p>
-                <a href="#" class="btn text-light btn-warning mb-2">Learn more</a>
+                <a href="#" class="btn text-light btn-warning mb-2"
+                  >Learn more</a
+                >
               </div>
             </div>
           </div>
@@ -258,7 +284,9 @@
       </div>
     </section>
 
-    <section id="Packages" class="pt-5 mt-5">
+    <!-- PROJECTS SECTION -->
+
+    <section id="portfolio" class="pt-5 mt-5 p-3">
       <h2 class="text-center my-4 text-uppercase fw-bold fs-4">Our Projects</h2>
       <p class="text-center text-wrap mb-5">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in
@@ -325,7 +353,9 @@
       </div>
     </section>
 
-    <section class="p-5 mt-5 sec-5" id="instructors">
+    <!-- TEAM SECTION -->
+
+    <section id="instructors" class="p-5 mt-5 sec-5">
       <div class="container">
         <h2 class="text-center text-uppercase mb-3 fw-bold fs-4">Our team</h2>
         <p class="text-center mb-5">
@@ -343,11 +373,9 @@
                 />
                 <h3 class="card-title">John Doe</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati dolor, numquam quod modi aliquam assumenda quae,
-                  similique, sunt voluptates accusantium quibusdam eligendi
-                  reiciendis doloremque veritatis iste distinctio atque earum
-                  explicabo.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. At,
+                  omnis! Quis doloribus exercitationem alias, perspiciatis
+                  sapiente necessitatibus eum eveniet qui.
                 </p>
                 <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                 <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -366,11 +394,9 @@
                 />
                 <h3 class="card-title">Jack Doe</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati dolor, numquam quod modi aliquam assumenda quae,
-                  similique, sunt voluptates accusantium quibusdam eligendi
-                  reiciendis doloremque veritatis iste distinctio atque earum
-                  explicabo.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. At,
+                  omnis! Quis doloribus exercitationem alias, perspiciatis
+                  sapiente necessitatibus eum eveniet qui.
                 </p>
                 <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                 <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -389,11 +415,9 @@
                 />
                 <h3 class="card-title">Jim Doe</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati dolor, numquam quod modi aliquam assumenda quae,
-                  similique, sunt voluptates accusantium quibusdam eligendi
-                  reiciendis doloremque veritatis iste distinctio atque earum
-                  explicabo.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. At,
+                  omnis! Quis doloribus exercitationem alias, perspiciatis
+                  sapiente necessitatibus eum eveniet qui.
                 </p>
                 <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                 <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -412,11 +436,9 @@
                 />
                 <h3 class="card-title">James Doe</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati dolor, numquam quod modi aliquam assumenda quae,
-                  similique, sunt voluptates accusantium quibusdam eligendi
-                  reiciendis doloremque veritatis iste distinctio atque earum
-                  explicabo.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. At,
+                  omnis! Quis doloribus exercitationem alias, perspiciatis
+                  sapiente necessitatibus eum eveniet qui.
                 </p>
                 <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
                 <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
@@ -428,5 +450,79 @@
         </div>
       </div>
     </section>
+
+    <!-- CONTACT SECTION  -->
+
+    <section id="contact" class="contact p-5 px-2 mt-5">
+      <div class="container my-container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center mb-5">
+              <h2 class="fw-bold fs-4 text-uppercase">contact us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus ex neque eaque iure. Est, unde?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <form action="#" class="p-1 m-auto the-form">
+          <div class="row m-0">
+            <div class="col-md-12 p-0 pt-4 pb-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      required
+                      placeholder="Your Full name"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      required
+                      placeholder="Your Email"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <textarea
+                      rows="3"
+                      class="form-control"
+                      required
+                      placeholder="Your Query here"
+                    ></textarea>
+                  </div>
+                </div>
+                <div
+                  class="text-center d-flex align-item-center justify-content-center"
+                >
+                  <button
+                    class="btn btn-md btn-warning btn-block mt-3 text-white"
+                  >
+                    Send now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="p-5 bg-dark">
+      <div class="container">
+        <p class="text-light text-center">copyright &copy; dreamhome.com</p>
+      </div>
+    </footer>
   </body>
 </html>
