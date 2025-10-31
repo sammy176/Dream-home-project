@@ -40,6 +40,10 @@ body {
   width: 100%;
 }
 
+.my-paragraph {
+  color: gray;
+}
+
 .card {
   border-radius: 24px;
 }
