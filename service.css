@@ -1,0 +1,62 @@
+body {
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 80px;
+}
+
+main {
+  background: url("image assets/c-dustin-91AQt9p4Mo8-unsplash.jpg") center/cover
+    no-repeat;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.199);
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.nav-item a {
+  color: grey;
+  transition: all 0.5s;
+}
+
+
+.para {
+  color: white;
+}
+
+p {
+  color: grey;
+}
+
+main h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.service-card {
+  border: none;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+footer {
+  background: #212529;
+  color: white;
+  padding: 30px 0;
+}

@@ -10,21 +10,19 @@ body::before {
   height: 80px;
 }
 
-
 body {
   overflow-x: hidden;
   font-family: Roboto, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.nav-item .active {
+  color: #ffc107;
 }
 
 .nav-item a {
   color: grey;
   transition: all 0.5s;
-}
-
-.nav-item a:hover {
-  border-radius: 10px;
-  color: #ffc107;
-  border: none;
 }
 
 .item {
@@ -57,11 +55,19 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .card-title{
-  font-size: 20px;
+  .card-title {
+    font-size: 20px;
+  }
 }
+
+@media (max-width: 968px) {
+  .the-image {
+    max-width: 27vw;
+  }
 }
 
-
-
-
+@media (max-width: 768px) {
+  .the-image {
+    max-width: 40vw;
+  }
+}
