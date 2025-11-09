@@ -2,6 +2,7 @@
 
 .logo {
   font-size: 6rem;
+  margin-bottom: 0.7rem;
 }
 
 body::before {
@@ -16,8 +17,8 @@ body {
   background-color: #f8f9fa;
 }
 
-.logo-img {  
-  width: 120px;    
+.logo-img {
+  width: 120px;
   padding-top: 0px;
   transition: transform 0.3s ease;
 }
@@ -25,7 +26,6 @@ body {
 .logo-img:hover {
   transform: scale(1.05);
 }
-
 
 .nav-item .active {
   color: #ffc107;

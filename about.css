@@ -7,6 +7,12 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.logo-img {
+  width: 120px;
+  padding-top: 0px;
+  transition: transform 0.3s ease;
+}
+
 body::before {
   display: block;
   content: "";
@@ -15,6 +21,7 @@ body::before {
 
 .logo {
   font-size: 6rem;
+  margin-bottom: 0.7rem;
 }
 
 .nav-item a {

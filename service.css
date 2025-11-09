@@ -10,6 +10,16 @@ body::before {
   height: 80px;
 }
 
+.logo {
+  margin-bottom: 0.7rem;
+}
+
+.logo-img {
+  width: 120px;
+  padding-top: 0px;
+  transition: transform 0.3s ease;
+}
+
 main {
   background: url("image assets/c-dustin-91AQt9p4Mo8-unsplash.jpg") center/cover
     no-repeat;
@@ -28,7 +38,6 @@ main {
   color: grey;
   transition: all 0.5s;
 }
-
 
 .para {
   color: white;

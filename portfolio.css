@@ -10,9 +10,19 @@ body::before {
   height: 80px;
 }
 
+.logo {
+  margin-bottom: 0.7rem;
+}
+
+.logo-img {
+  width: 120px;
+  padding-top: 0px;
+  transition: transform 0.3s ease;
+}
+
 main {
-  background: url("image assets/scott-blake-x-ghf9LjrVg-unsplash.jpg") center/cover
-    no-repeat;
+  background: url("image assets/scott-blake-x-ghf9LjrVg-unsplash.jpg")
+    center/cover no-repeat;
   height: 60vh;
   background-color: rgba(0, 0, 0, 0.199);
   background-blend-mode: darken;
