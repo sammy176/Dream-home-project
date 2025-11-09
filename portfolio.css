@@ -49,3 +49,9 @@ footer {
   color: white;
   padding: 30px 0;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: small;
+  }
+}

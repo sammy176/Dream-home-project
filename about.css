@@ -113,4 +113,8 @@ footer {
   .the-image {
     max-width: 40vw;
   }
+
+   html {
+    font-size: small;
+  }
 }

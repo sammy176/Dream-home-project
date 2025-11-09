@@ -81,4 +81,17 @@ body {
   .the-image {
     max-width: 40vw;
   }
+
+  .navbar-toggler{
+    border: none;
+    outline: none;
+  }
+
+  .navbar-toggler::after {
+     border: none;
+  }
+
+  html {
+    font-size: small;
+  }
 }
